@@ -1,0 +1,118 @@
+{
+  // =========================
+  // Formatting
+  // =========================
+  "editor.formatOnSave": true,
+  // "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.colorDecorators": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.colorDecorators": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.colorDecorators": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.colorDecorators": true
+  },
+  "[json]": {
+    "editor.colorDecorators": true
+  },
+
+  // Run ESLint fixes on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always"
+  },
+
+  // =========================
+  // Prettier
+  // =========================
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "prettier.printWidth": 80,
+  "prettier.arrowParens": "avoid",
+  "prettier.endOfLine": "auto",
+
+  // =========================
+  // ESLint
+  // =========================
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.alwaysShowStatus": true,
+
+  // =========================
+  // IntelliSense & Autocomplete
+  // =========================
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  "editor.snippetSuggestions": "top",
+
+  // Cursor AI suggestions
+  "editor.acceptSuggestionOnEnter": "on",
+
+  // =========================
+  // React / TypeScript QoL
+  // =========================
+  // "typescript.updateImportsOnFileMove.enabled": "always",
+  // "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+
+  // =========================
+  // UI / Editor Comfort
+  // =========================
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.colorDecorators": true,
+
+  // Optional: VSCode Color Picker extension settings
+  "color-picker.enableAutoColorDecorators": true,
+  "color-picker.enableAlpha": true,
+
+  // =========================
+  // Files
+  // =========================
+  // "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.expo": true,
+    "**/ios/build": true,
+    "**/android/build": true
+  },
+
+  // =========================
+  // React Native specific
+  // =========================
+  "react-native.packager.port": 8081,
+
+  // =========================
+  // Explorer
+  // =========================
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false
+}
